@@ -1,1 +1,1 @@
-#Node.js color generator
+# Node.js color generator
