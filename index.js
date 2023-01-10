@@ -9,12 +9,12 @@
 
 // 4. If a user types a size in the format of WWxHH (eg. 31x9) before the color and luminosity, it will use this as the size of the box
 
+import chalk from 'chalk';
+import randomColor from 'randomcolor';
+
 const lum = process.argv[3];
 const col = process.argv[2];
 
-const chalk = require('chalk');
-
-const randomColor = require('randomcolor');
 const color = randomColor({
   luminosity: lum,
   hue: col,
